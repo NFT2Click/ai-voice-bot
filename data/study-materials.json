@@ -1,0 +1,17 @@
+[
+    {
+        "title": "AI Basics",
+        "description": "Introduction to Artificial Intelligence",
+        "link": "https://example.com/ai-basics"
+    },
+    {
+        "title": "Machine Learning",
+        "description": "A comprehensive guide to Machine Learning",
+        "link": "https://example.com/machine-learning"
+    },
+    {
+        "title": "Deep Learning",
+        "description": "Understanding Deep Learning",
+        "link": "https://example.com/deep-learning"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "quizId": 1,
+        "title": "Basic Math Quiz",
+        "questions": [
+            {
+                "question": "What is 2 + 2?",
+                "options": ["3", "4", "5", "6"],
+                "answer": "4"
+            },
+            {
+                "question": "What is 3 + 5?",
+                "options": ["5", "7", "8", "10"],
+                "answer": "8"
+            }
+        ]
+    },
+    {
+        "quizId": 2,
+        "title": "Geography Quiz",
+        "questions": [
+            {
+                "question": "What is the capital of France?",
+                "options": ["Berlin", "London", "Paris", "Rome"],
+                "answer": "Paris"
+            },
+            {
+                "question": "Which is the largest continent?",
+                "options": ["Africa", "Asia", "Europe", "Australia"],
+                "answer": "Asia"
+            }
+        ]
+    }
+]

@@ -1,0 +1,33 @@
+.dashboard {
+    margin: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.stat {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    width: 30%;
+}
+
+.stat h3 {
+    margin-top: 0;
+}
+
+.charts {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.charts h3 {
+    margin-top: 0;
+}

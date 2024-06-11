@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game - AI Voice Bot</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="AI Voice Bot Logo">
+        <h1>AI Voice Bot</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/dashboard">Dashboard</a></li>
+            <li><a href="/profile">Profile</a></li>
+            <li><a href="/quiz">Quiz</a></li>
+            <li><a href="/game">Game</a></li>
+            <li><a href="/chat">Chat</a></li>
+            <li><a href="/study-materials">Study Materials</a></li>
+            <li><a href="/logout">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="game">
+        <h2>Guess the Number</h2>
+        <p>Guess a number between 1 and 10:</p>
+        <input type="number" id="guess" min="1" max="10">
+        <button onclick="checkGuess()">Submit</button>
+        <p id="result"></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 AI Voice Bot. All rights reserved.</p>
+    </footer>
+    <script src="scripts/game.js"></script>
+</body>
+</html>
